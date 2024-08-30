@@ -1,0 +1,93 @@
+:root{
+    --cor-fundo: #2E073F;
+    --cor-fonte: #EBD3F8;
+    --cor-destaque: #AD49E1;
+    --cor-hover: #7A1CAC;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: var(--cor-destaque);
+    padding: 20px 10px 20px 10px;
+    height: 10%;
+}
+header nav a{
+    border: 2px solid var(--cor-fundo);
+    border-radius: 5px;
+    color: var(--cor-fundo);
+    padding: 5px 5px 5px 5px;
+}
+header nav a:hover{
+    background-color: var(--cor-hover);
+}
+main{
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+    padding: 1% 3% 1% 3%;
+    height: 90%;
+}
+main h1{
+    color: var(--cor-destaque);
+    text-align: center;
+    font-size: 3rem;
+}
+main h2{
+    color: var(--cor-destaque);
+    font-size: 2.2rem;
+}
+main p, li{
+    font-size: 1.2rem;
+}
+.big-text{
+    font-size: 1.5rem;
+}
+main strong{
+    color: var(--cor-destaque);
+}
+main section{
+    display: flex;
+}
+main section div{
+    width: 50%;
+    text-align: center;
+}
+main>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main div p{
+    text-align: center;
+    width: 40%;
+}
+main div img{
+    width: 25%;
+}
+main a{
+    color: var(--cor-fonte);
+    border: 2px solid var(--cor-fonte);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0 5px 0;
+}
+main a:hover{
+    background-color: var(--cor-hover);
+}
+.text-with-image{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 30px;
+}
+.text-with-image__text{
+    text-align: center;
+}
+.text-with-image__text p{
+    text-align: center;
+}
